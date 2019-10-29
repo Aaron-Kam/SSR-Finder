@@ -1,5 +1,10 @@
 Auto_SSR_Analysis v2.1
 
+*********************************************
+WARNING: CODE IS UNPOLISHED AND NOT OPTIMIZED
+USE SOMETHING ELSE FIRST
+*********************************************
+
 Instructions:
     
     Dependencies:
