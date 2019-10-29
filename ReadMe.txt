@@ -15,6 +15,9 @@ Instructions:
             *can be downloaded here ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
         -pandas
             *should be automatically downloaded with python
+        -swissprot prot db
+            *can be downloaded here ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/swissprot.gz
+            *place the swissprot db inside a folder called swissprot, and place that folder inside the modules directory
         
     To run in commandline:
         1)install python
@@ -36,4 +39,11 @@ Instructions:
             -Read the comments and follow their directions
             -To omit the use of a module, place a # in front of it
                 *to use it again, delete the #
-            
+        
+        Important Caveats:
+            -The Uniprot Searcher module is reliant on the output of the Swissprot Blast module. Only
+                run the Uniprot Searcher if Swissprot has been run successfully
+            -The Swissprot Blast module requires an installation of the swissprot db which can be found on
+                the NCBI FTP server. Place the swissprot protein db inside a folder called swissprot, 
+                inside the modules folder.
+                
